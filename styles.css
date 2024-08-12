@@ -124,3 +124,57 @@ button {
     color: rgb(80, 57, 1);
     font-size: 18px;
 }
+
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    align-items: center;
+    padding: 100px 436px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    padding-bottom: 10px;
+}
+
+.signature {
+    font-weight: bold;
+    align-self: flex-end;
+    font-size: 24px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 80px 400px;
+    padding: 40px 100px;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: #F9FAF8;
+}
+
+.action-top {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-bottom {
+    font-size: 18px;
+}
+
+.bottom-button {
+    border-color: #F9FAF8;
+    border-width: medium;
+    align-self: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
